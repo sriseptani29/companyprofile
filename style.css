@@ -102,11 +102,6 @@ header.navbar a.hover{
     line-height: 1.5;
 }
 
-iframe{
-    margin-top: 2rem;
-    display: flex;
-}
-
 .box{
     display: flex;
     gap: 10px;
