@@ -1,0 +1,182 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 2s linear;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #ffffff;
+    padding: 2rem;
+    margin : 2rem 0;
+    background-color: rgb(79, 146, 148);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem;
+}
+
+header .logo{
+    font-size: 1rem;
+}
+
+header .navbar a{
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    color: rgb(28, 99, 99);
+    margin-left: 1.5rem;
+}
+
+header.navbar a.hover{
+    color: rgb(28, 99, 99);
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url("img.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .banner{
+    max-width: 50rem;
+    color: black;
+}
+
+.home .banner h2{
+    font-size: 6rem;
+    color: #fff;
+}
+
+.about .content{
+    flex: 1 1 40rem;
+}
+
+.about .content h3{
+    font-size: 3rem;
+    color: darkslategray;
+}
+
+.about .content h4{
+    text-align: center;
+    font-size: 3rem;
+    color: darkslategray;
+}
+
+.about .content p{
+    font-size: 1,5rem;
+    padding: 3rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+.about .content h5{
+    font-size: 2rem;
+}
+
+.about .content li{
+    font-size: 1,5rem; 
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+iframe{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.box{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: rgba(241, 247, 247, 0.856);
+    width: 230px;
+    height: 290px;
+    text-align: center;
+    padding: 15PX;
+    border: solid 1px #cc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+    object-fit: cover;
+}
+
+.image:hover{
+    transform: scale(1.2);
+}
+
+.nama{
+    font-size: 20px;
+    margin: 10px 0;
+    color: black;
+}
+
+.harga{
+    color: rgb(47, 51, 56);
+    font-size: 18px;
+}
+
+.kontak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotak{
+    background:#fff;
+    width: 210px;
+    height: 250px;
+    text-align: center;
+    padding: 15PX;
+    border: solid 1px #cc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.phone{
+    height: 180px;
+    width: 180px;
+    border-radius: 8%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+a{
+    font-size: 1.5em;
+    color: rgb(54, 71, 71);
+}
+
+
+
